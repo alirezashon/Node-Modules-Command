@@ -1,0 +1,5 @@
+import os from 'os'
+
+	const networkInterface = os.networkInterfaces()
+
+  console.log(Object.values(networkInterface)[0])
