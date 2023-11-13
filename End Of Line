@@ -1,0 +1,5 @@
+import os from 'os'
+
+const networkInterface = os.networkInterfaces()
+const endOfLine = os.EOL
+console.log(`End of Line characters for this platform: "${endOfLine}" ok kalim ishere alonso`)
